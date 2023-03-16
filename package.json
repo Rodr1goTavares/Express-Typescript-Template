@@ -1,7 +1,7 @@
 {
   "name": "backend-nodejs",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "main.ts",
   "scripts": {
     "compile": "tsc -w",
     "build": "tsc",
