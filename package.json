@@ -1,0 +1,22 @@
+{
+  "name": "backend-nodejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc -w",
+    "build": "tsc",
+    "start": "concurrently \"nodemon dist/main.js \" \"tsc -w\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21"
+  },
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
